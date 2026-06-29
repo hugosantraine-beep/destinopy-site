@@ -176,7 +176,7 @@ body { font-family: 'Source Sans 3', sans-serif; font-weight: 400; color: var(--
 </head>
 <body>
 <nav class="nav">
-  <div class="nav-logo">Destino<span>Py</span></div>
+  <a href="/" class="nav-logo">Destino<span>Py</span></a>
   <div class="nav-links">
     <a class="nav-link" href="#video">La formation</a>
     <a class="nav-link" href="#contenido">Contenu</a>
@@ -191,11 +191,11 @@ body { font-family: 'Source Sans 3', sans-serif; font-weight: 400; color: var(--
         <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M2 4l4 4 4-4"/></svg>
       </button>
       <div class="lang-dropdown" id="langDropdown">
-        <div class="lang-option " onclick="window.open('index', '_blank')">🇪🇸 Español</div>
-        <div class="lang-option " onclick="window.open('index_en', '_blank')">🇬🇧 English</div>
-        <div class="lang-option active" onclick="window.open('index_fr', '_blank')">🇫🇷 Français</div>
-        <div class="lang-option " onclick="window.open('index_pt', '_blank')">🇧🇷 Português</div>
-        <div class="lang-option " onclick="window.open('index_it', '_blank')">🇮🇹 Italiano</div>
+        <div class="lang-option " onclick="window.location='/'">🇪🇸 Español</div>
+        <div class="lang-option " onclick="window.location='/index_en'">🇬🇧 English</div>
+        <div class="lang-option active" onclick="window.location='/index_fr'">🇫🇷 Français</div>
+        <div class="lang-option " onclick="window.location='/index_pt'">🇧🇷 Português</div>
+        <div class="lang-option " onclick="window.location='/index_it'">🇮🇹 Italiano</div>
       </div>
     </div>
     <a href="https://pay.hotmart.com/X106016338Y" target="_blank" class="nav-cta">Acheter maintenant</a>
